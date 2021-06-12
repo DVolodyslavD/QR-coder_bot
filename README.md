@@ -10,4 +10,5 @@ Telegram bot to create **QR-codes**
 Send a link or any text, and the bot will send a QR code
 
 ![Image of IMG_20210613_000501](https://github.com/DVolodyslavD/QR-coder_bot/blob/main/screenshots/IMG_20210613_000501.jpg)
+
 ![Image of IMG_20210613_000652](https://github.com/DVolodyslavD/QR-coder_bot/blob/main/screenshots/IMG_20210613_000652.jpg)
