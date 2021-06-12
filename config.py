@@ -1,7 +1,7 @@
 """
     Created Volodyslav D. 06-11-2021
-    Version: 2.4-a
-    Last update: 06-11-2021
+    Version: 2.8-a
+    Last update: 06-12-2021
 """
 
 import os
@@ -23,10 +23,10 @@ QR = qrcode.QRCode(
 TARGET_DIR = 'qrcodes' + os.sep + time.strftime('%Y%m%d%H%M%S') + '.png'
 
 # database filename
-DB_FILE = 'db_users.db'
+DB_FILE = '...'
 
 # Telegram bot
-TOKEN = '1881100312:AAES_c6tOBAm_69Qw4W3_2e71yEcRyo07Ys'
+TOKEN = '...'
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)
