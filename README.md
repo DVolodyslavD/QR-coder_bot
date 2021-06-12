@@ -1,5 +1,5 @@
 # QR-coder BOT
-Telegram bot for creating **QR-codes**
+Telegram bot to create **QR-codes**
 
 ![Image of qr_bot](https://github.com/DVolodyslavD/QR-coder_bot/blob/main/qrcodes/qr_bot.jpg)
 
