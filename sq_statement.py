@@ -8,7 +8,6 @@ def select_users(db_file):
     cur.execute("SELECT user_id FROM all_users")
     result = cur.fetchall()
     connect.close()
-    print(result)
     return result
 
 
