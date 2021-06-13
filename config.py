@@ -1,14 +1,14 @@
 """
     Created Volodyslav D. 06-11-2021
-    Version: 2.8-a
-    Last update: 06-12-2021
+    Version: 2.9-a
+    Last update: 06-11-2021
 """
 
 import os
 import time
 
 import qrcode
-from aiogram import Bot
+from aiogram import Bot, types
 from aiogram.dispatcher import Dispatcher
 
 # QR-code template
@@ -28,5 +28,5 @@ DB_FILE = '...'
 # Telegram bot
 TOKEN = '...'
 
-bot = Bot(token=TOKEN)
+bot = Bot(token=TOKEN, parse_mode=types.ParseMode.HTML)
 dp = Dispatcher(bot)
