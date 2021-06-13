@@ -8,7 +8,7 @@ import bot
 if __name__ == '__main__':
     logging.basicConfig(
         level=logging.INFO,
-        format="[%(asctime)s](%(levelname)s): \"%(filename)s\", line:%(lineno)d %(funcName)s - %(message)s",
+        format="[%(asctime)s](%(levelname)s): \"%(filename)s\", line:%(lineno)d, %(funcName)s - %(message)s",
         filename='botLogs.log')
 
     executor.start_polling(dp)
