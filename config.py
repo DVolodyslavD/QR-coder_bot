@@ -1,6 +1,6 @@
 """
     Created Volodyslav D. 06-11-2021
-    Version: 2.9-a
+    Version: 3.0-b
     Last update: 06-13-2021
 """
 
