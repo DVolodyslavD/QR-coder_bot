@@ -13,7 +13,7 @@ from aiogram.dispatcher import Dispatcher
 
 # QR-code template
 QR = qrcode.QRCode(
-    version=5,
+    version=None,
     error_correction=qrcode.constants.ERROR_CORRECT_H,
     box_size=10,
     border=4,
