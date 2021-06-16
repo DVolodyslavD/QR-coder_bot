@@ -41,7 +41,7 @@ async def info_command(message: types.Message):
 
 
 @dp.message_handler(content_types=types.ContentType.TEXT)
-async def qr_text_creator(message: types.Message):
+async def qr_code_creator(message: types.Message):
     data = message.text
     logging.info(data)
     QR.add_data(data)
@@ -58,5 +58,5 @@ async def qr_text_creator(message: types.Message):
 
 
 @dp.message_handler(content_types=types.ContentType.PHOTO)
-async def help_command(message: types.Message):
+async def other_command(message: types.Message):
     await message.reply(error_mssg)
