@@ -21,7 +21,7 @@ async def start_command(message: types.Message):
         # If the user is not in the database, write he to the database.
         first_name = message.from_user.first_name
         username = message.from_user.username
-        logging.info("New user: {}".format(first_name))
+        logging.info(f"New user: {first_name}")
         write_user(DB_FILE, user_id, first_name, username)
     await message.reply(
         f"Hello, <b>{aimd.quote_html(message.from_user.first_name)}</b>! I can generate <u>QR-code</u>.\n"
