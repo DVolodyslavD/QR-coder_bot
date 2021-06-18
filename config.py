@@ -1,7 +1,7 @@
 """
     Created Volodyslav D. 06-11-2021
-    Version: 3.1-b
-    Last update: 06-13-2021
+    Version: 3.2-b
+    Last update: 17-13-2021
 """
 
 import os
