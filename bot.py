@@ -12,7 +12,7 @@ from sq_statement import select_users, write_user
 @dp.message_handler(commands=['start'])
 async def start_command(message: types.Message):
     user_id = message.from_user.id
-    result = select_users(DB_FILE)
+    result = get_users(DB_FILE)
     # Checking for the presence of the user in the database.
     for i in result:
         if user_id == i[0]:
@@ -22,7 +22,7 @@ async def start_command(message: types.Message):
         first_name = message.from_user.first_name
         username = message.from_user.username
         logging.info(f"New user: {first_name}")
-        write_user(DB_FILE, user_id, first_name, username)
+        set_user(DB_FILE, user_id, first_name, username)
     await message.reply(
         f"Hello, <b>{aimd.quote_html(message.from_user.first_name)}</b>! I can generate <u>QR-code</u>.\n"
         f"Just send me a text (for example, a link) and I will send you the corresponding QR-code.\n"
