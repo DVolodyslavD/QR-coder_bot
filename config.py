@@ -23,7 +23,7 @@ QR = qrcode.QRCode(
 TARGET_DIR = 'qrcodes' + os.sep + time.strftime('%Y%m%d%H%M%S') + '.png'
 
 # database filename
-DB_FILE = 'db_user.db'
+DB_FILE = 'db_users.db'
 
 # Telegram bot
 TOKEN = '...'
