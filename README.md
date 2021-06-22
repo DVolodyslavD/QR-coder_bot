@@ -1,5 +1,5 @@
 # QR-coder BOT
-Telegram bot to create **QR-codes**. [@DVD_QRbot]((https://t.me/DVD_QRbot)
+Telegram bot to create **QR-codes**. [@DVD_QRbot](https://t.me/DVD_QRbot)
 
 ![Image of qr_bot](https://github.com/DVolodyslavD/QR-coder_bot/blob/main/qrcodes/qr_bot.jpg)
 
@@ -15,4 +15,4 @@ Send a link or any text, and the bot will send a QR-code
 ![Image of IMG_8ef92f6b-0cef-4e0a-a236-14aa45ea0d33](https://github.com/DVolodyslavD/QR-coder_bot/blob/main/screenshots/8ef92f6b-0cef-4e0a-a236-14aa45ea0d33.jpg)
 
 
-### © D. Volodyslav D.
+### © 2021 D. Volodyslav D.
